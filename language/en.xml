@@ -3,7 +3,7 @@
 
 	<category name="wcf.user.option">
 		<item name="wcf.user.option.contactWa"><![CDATA[WhatsApp]]></item>
-		<item name="wcf.user.option.contactWa.description"><![CDATA[Enter your phonenumber. (e.g. 19831238745)]]></item>
+		<item name="wcf.user.option.contactWa.description"><![CDATA[Fill in your phone number.]]></item>
 
 	</category>
 
