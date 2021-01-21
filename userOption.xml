@@ -9,7 +9,7 @@
         <searchable>1</searchable>
         <visible>15</visible>
         <editable>3</editable>
-				<validationpattern>\+[0-9]{5,99}</validationpattern>
+				<validationpattern>^$|\+[0-9]{5,99}</validationpattern>
       </option>
 		</options>
 	</import>
