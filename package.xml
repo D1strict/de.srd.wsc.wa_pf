@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd" name="de.srd.wsc.wa_pf">
+	<packageinformation>
+		<packagename><![CDATA[WhatsApp-Profilefield]]></packagename>
+		<packagename language="de"><![CDATA[WhatsApp-Profilfeld]]></packagename>
+		<packagedescription><![CDATA[Adds a user profile field for WhatsApp.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Fügt ein Benutzerprofilfeld für WhatsApp hinzu.]]></packagedescription>
+		<packageurl><![CDATA[https://shop.d1strict.de/product/1-whatsapp-profilfeld/]]></packageurl>
+		<version><![CDATA[1.0.4]]></version>
+		<date><![CDATA[2020-12-25]]></date>
+		<license><![CDATA[Lizenz: <https://d1strict.de/free/>]]></license>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[D1strict-Development]]></author>
+		<authorurl><![CDATA[https://development.d1strict.de]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="5.2.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
+
+	<compatibility>
+		<api version="2018"/>
+	</compatibility>
+
+	<instructions type="install">
+		<instruction type="file"/>
+		<instruction type="userOption"/>
+		<instruction type="language"/>
+	</instructions>
+	<instructions type="update" fromversion="*">
+		<instruction type="file"/>
+		<instruction type="userOption"/>
+		<instruction type="language"/>
+	</instructions>
+</package>

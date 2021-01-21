@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/userOption.xsd">
+	<import>
+		<options>
+      <option name="contactWa">
+        <categoryname>profile.contact</categoryname>
+        <optiontype>text</optiontype>
+        <outputclass>wcf\system\option\user\WaUserOptionOutput</outputclass>
+        <searchable>1</searchable>
+        <visible>15</visible>
+        <editable>3</editable>
+				<validationpattern>^$|\+[0-9]{5,99}</validationpattern>
+      </option>
+		</options>
+	</import>
+</data>
