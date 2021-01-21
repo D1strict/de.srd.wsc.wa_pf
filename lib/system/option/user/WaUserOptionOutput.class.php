@@ -1,6 +1,6 @@
 <?php
 /**
- @author		Sir.Robo Development
+ @author		D1strict-Development <www.d1strict.de>
  @copyright 	2020 Felix Waßmuth
 */
 
@@ -9,7 +9,7 @@ use wcf\data\user\option\UserOption;
 use wcf\data\user\User;
 use wcf\util\StringUtil;
 class WaUserOptionOutput implements IUserOptionOutput {
-	
+
 /**
  * @see wcf\system\option\user\IUserOptionOutput::getOutput()
  */
@@ -17,7 +17,7 @@ public function getOutput(User $user, UserOption $option, $value) {
 		if (empty($value)) return '';
 		$rmv = array(' ', '+');
 		$value = StringUtil::trim($value);
-		$link = 'https://wa.me/' . $value;
+		$link = 'https://api.whatsapp.com/send?phone=' . $value;
 
 		$link = StringUtil::encodeHTML($link);
 		$link = str_replace($rmv, "", $link);
