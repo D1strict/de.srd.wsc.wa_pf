@@ -1,6 +1,7 @@
 <?php
 /**
- @author		D1strict-Development <www.d1strict.de>
+ @author		D1strict-Development
+ Internal Information: de.srd.wsc.wa_pf
  @copyright 	2020 Felix Waßmuth
 */
 
