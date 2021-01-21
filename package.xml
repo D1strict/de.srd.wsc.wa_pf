@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="de.srd.wsc.wa_pf" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+<package xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd" name="de.srd.wsc.wa_pf">
 	<packageinformation>
-		<packagename>WhatsApp-Profilefield</packagename>
-		<packagename language="de">WhatsApp-Profilfeld</packagename>
-		<packagedescription>Adds a user profile field for WhatsApp.</packagedescription>
-		<packagedescription language="de">Fügt ein Benutzerprofilfeld für WhatsApp hinzu.</packagedescription>
-		<version>1.0.1</version>
-		<date>2020-07-01</date>
+		<packagename><![CDATA[WhatsApp-Profilefield]]></packagename>
+		<packagename language="de"><![CDATA[WhatsApp-Profilfeld]]></packagename>
+		<packagedescription><![CDATA[Adds a user profile field for WhatsApp.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Fügt ein Benutzerprofilfeld für WhatsApp hinzu.]]></packagedescription>
+		<packageurl><![CDATA[https://shop.d1strict.de/product/1-whatsapp-profilfeld/]]></packageurl>
+		<version><![CDATA[1.0.2]]></version>
+		<date><![CDATA[2020-10-10]]></date>
+		<license><![CDATA[Lizenz: <https://d1strict.de/free/>]]></license>
 	</packageinformation>
+
 	<authorinformation>
-		<author>Sir.Robo Development</author>
-		<authorurl>https://sirrobo-development.de</authorurl>
+		<author><![CDATA[D1strict-Development]]></author>
+		<authorurl><![CDATA[https://www.development.d1strict.de]]></authorurl>
 	</authorinformation>
+
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.2.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
+
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
+
 	<compatibility>
 		<api version="2018"/>
 	</compatibility>
+
 	<instructions type="install">
 		<instruction type="file"/>
 		<instruction type="userOption"/>
