@@ -6,14 +6,14 @@
 		<packagedescription><![CDATA[Adds a user profile field for WhatsApp.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Fügt ein Benutzerprofilfeld für WhatsApp hinzu.]]></packagedescription>
 		<packageurl><![CDATA[https://shop.d1strict.de/product/1-whatsapp-profilfeld/]]></packageurl>
-		<version><![CDATA[1.0.2]]></version>
-		<date><![CDATA[2020-10-10]]></date>
+		<version><![CDATA[1.0.3]]></version>
+		<date><![CDATA[2020-11-14]]></date>
 		<license><![CDATA[Lizenz: <https://d1strict.de/free/>]]></license>
 	</packageinformation>
 
 	<authorinformation>
 		<author><![CDATA[D1strict-Development]]></author>
-		<authorurl><![CDATA[https://www.development.d1strict.de]]></authorurl>
+		<authorurl><![CDATA[https://development.d1strict.de]]></authorurl>
 	</authorinformation>
 
 	<requiredpackages>
@@ -36,6 +36,5 @@
 	<instructions type="update" fromversion="*">
 		<instruction type="file"/>
 		<instruction type="userOption"/>
-		<instruction type="language"/>
 	</instructions>
 </package>
