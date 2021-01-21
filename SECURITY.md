@@ -12,4 +12,4 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Report it immediately to: aufsicht@d1strict.de or on our website <https://d1strict.de/development/>.
+Report the Vulnerability immediately to: aufsicht@d1strict.de or on our website <https://d1strict.de/development/>.
