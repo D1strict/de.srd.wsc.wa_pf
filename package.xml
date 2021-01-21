@@ -3,10 +3,10 @@
 	<packageinformation>
 		<packagename>WhatsApp-Profilefield</packagename>
 		<packagename language="de">WhatsApp-Profilfeld</packagename>
-		<packagedescription>Adds a WhatsApp user option.</packagedescription>
+		<packagedescription>Adds a user profile field for WhatsApp.</packagedescription>
 		<packagedescription language="de">Fügt ein Benutzerprofilfeld für WhatsApp hinzu.</packagedescription>
-		<version>1.0.0</version>
-		<date>2020-05-22</date>
+		<version>1.0.1</version>
+		<date>2020-07-01</date>
 	</packageinformation>
 	<authorinformation>
 		<author>Sir.Robo Development</author>

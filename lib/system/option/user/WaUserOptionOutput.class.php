@@ -15,11 +15,12 @@ class WaUserOptionOutput implements IUserOptionOutput {
  */
 public function getOutput(User $user, UserOption $option, $value) {
 		if (empty($value)) return '';
-
-		$value = trim($value);
+		$rmv = array(' ', '+');
+		$value = StringUtil::trim($value);
 		$link = 'https://wa.me/' . $value;
 
 		$link = StringUtil::encodeHTML($link);
+		$link = str_replace($rmv, "", $link);
 		$value = StringUtil::encodeHTML($value);
 
 		return '<a href="'.$link.'" class="externalURL"'.(EXTERNAL_LINK_REL_NOFOLLOW ? ' rel="nofollow"' : '').(EXTERNAL_LINK_TARGET_BLANK ? ' target="_blank"' : '').'>'.$value.'</a>';
